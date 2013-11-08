@@ -1,0 +1,370 @@
+[
+  {
+    "division": "NFC West", 
+    "team_wikipedia_url": "http://en.wikipedia.org/wiki/Arizona_Cardinals", 
+    "qb_name": "Carson Palmer", 
+    "team": "Arizona Cardinals", 
+    "qb_wikipedia_url": "http://en.wikipedia.org/wiki/Carson_Palmer", 
+    "qb_image_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Carson_Palmer_2012-09-30.jpg/230px-Carson_Palmer_2012-09-30.jpg"
+  }, 
+  {
+    "division": "NFC South", 
+    "team_wikipedia_url": "http://en.wikipedia.org/wiki/Atlanta_Falcons", 
+    "qb_name": "Matt Ryan", 
+    "team": "Atlanta Falcons", 
+    "qb_wikipedia_url": "http://en.wikipedia.org/wiki/Matt_Ryan", 
+    "qb_image_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Matt_Ryan_training_camp_2013.jpg/250px-Matt_Ryan_training_camp_2013.jpg"
+  }, 
+  {
+    "division": "AFC North", 
+    "team_wikipedia_url": "http://en.wikipedia.org/wiki/Baltimore_Ravens", 
+    "qb_name": "Joe Flacco", 
+    "team": "Baltimore Ravens", 
+    "qb_wikipedia_url": "http://en.wikipedia.org/wiki/Joe_Flacco", 
+    "qb_image_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Joe_Flacco.jpg/275px-Joe_Flacco.jpg"
+  }, 
+  {
+    "division": "AFC East", 
+    "team_wikipedia_url": "http://en.wikipedia.org/wiki/Buffalo_Bills", 
+    "qb_name": "EJ Manuel", 
+    "team": "Buffalo Bills", 
+    "qb_wikipedia_url": "http://en.wikipedia.org/wiki/EJ_Manuel", 
+    "qb_image_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/EJ_Manuel.jpg/200px-EJ_Manuel.jpg"
+  }, 
+  {
+    "division": "AFC East", 
+    "team_wikipedia_url": "http://en.wikipedia.org/wiki/Buffalo_Bills", 
+    "qb_name": "Thad Lewis", 
+    "team": "Buffalo Bills", 
+    "qb_wikipedia_url": "http://en.wikipedia.org/wiki/Thad_Lewis", 
+    "qb_image_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Thaddeus_Lewis.jpg/200px-Thaddeus_Lewis.jpg"
+  }, 
+  {
+    "division": "AFC East", 
+    "team_wikipedia_url": "http://en.wikipedia.org/wiki/Buffalo_Bills", 
+    "qb_name": "Jeff Tuel", 
+    "team": "Buffalo Bills", 
+    "qb_wikipedia_url": "http://en.wikipedia.org/wiki/Jeff_Tuel", 
+    "qb_image_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Jeff_Tuel_in_2009.jpg/220px-Jeff_Tuel_in_2009.jpg"
+  }, 
+  {
+    "division": "NFC South", 
+    "team_wikipedia_url": "http://en.wikipedia.org/wiki/Carolina_Panthers", 
+    "qb_name": "Cam Newton", 
+    "team": "Carolina Panthers", 
+    "qb_wikipedia_url": "http://en.wikipedia.org/wiki/Cam_Newton", 
+    "qb_image_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Cam_Newton_-_Carolina_Panthers.jpg/200px-Cam_Newton_-_Carolina_Panthers.jpg"
+  }, 
+  {
+    "division": "NFC North", 
+    "team_wikipedia_url": "http://en.wikipedia.org/wiki/Chicago_Bears", 
+    "qb_name": "Jay Cutler", 
+    "team": "Chicago Bears", 
+    "qb_wikipedia_url": "http://en.wikipedia.org/wiki/Jay_Cutler_(American_football)", 
+    "qb_image_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Jay_Cutler_-_11-01-2009.jpg/200px-Jay_Cutler_-_11-01-2009.jpg"
+  }, 
+  {
+    "division": "NFC North", 
+    "team_wikipedia_url": "http://en.wikipedia.org/wiki/Chicago_Bears", 
+    "qb_name": "Josh McCown", 
+    "team": "Chicago Bears", 
+    "qb_wikipedia_url": "http://en.wikipedia.org/wiki/Josh_McCown", 
+    "qb_image_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Josh_McCown_%28cropped%29.JPG/200px-Josh_McCown_%28cropped%29.JPG"
+  }, 
+  {
+    "division": "AFC North", 
+    "team_wikipedia_url": "http://en.wikipedia.org/wiki/Cincinnati_Bengals", 
+    "qb_name": "Andy Dalton", 
+    "team": "Cincinnati Bengals", 
+    "qb_wikipedia_url": "http://en.wikipedia.org/wiki/Andy_Dalton_(American_football)", 
+    "qb_image_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/AndyDalton.jpg/220px-AndyDalton.jpg"
+  }, 
+  {
+    "division": "AFC North", 
+    "team_wikipedia_url": "http://en.wikipedia.org/wiki/Cleveland_Browns", 
+    "qb_name": "Brandon Weeden", 
+    "team": "Cleveland Browns", 
+    "qb_wikipedia_url": "http://en.wikipedia.org/wiki/Brandon_Weeden", 
+    "qb_image_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Brandon_Weeden_%28CROP%29.jpg/220px-Brandon_Weeden_%28CROP%29.jpg"
+  }, 
+  {
+    "division": "AFC North", 
+    "team_wikipedia_url": "http://en.wikipedia.org/wiki/Cleveland_Browns", 
+    "qb_name": "Brian Hoyer", 
+    "team": "Cleveland Browns", 
+    "qb_wikipedia_url": "http://en.wikipedia.org/wiki/Brian_Hoyer", 
+    "qb_image_url": "http://upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png"
+  }, 
+  {
+    "division": "AFC North", 
+    "team_wikipedia_url": "http://en.wikipedia.org/wiki/Cleveland_Browns", 
+    "qb_name": "Jason Campbell", 
+    "team": "Cleveland Browns", 
+    "qb_wikipedia_url": "http://en.wikipedia.org/wiki/Jason_Campbell", 
+    "qb_image_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Jason_Campbell_2011.JPG/250px-Jason_Campbell_2011.JPG"
+  }, 
+  {
+    "division": "NFC East", 
+    "team_wikipedia_url": "http://en.wikipedia.org/wiki/Dallas_Cowboys", 
+    "qb_name": "Tony Romo", 
+    "team": "Dallas Cowboys", 
+    "qb_wikipedia_url": "http://en.wikipedia.org/wiki/Tony_Romo", 
+    "qb_image_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Tony_Romo_before_2008_Pro_Bowl.JPEG/250px-Tony_Romo_before_2008_Pro_Bowl.JPEG"
+  }, 
+  {
+    "division": "AFC West", 
+    "team_wikipedia_url": "http://en.wikipedia.org/wiki/Denver_Broncos", 
+    "qb_name": "Peyton Manning", 
+    "team": "Denver Broncos", 
+    "qb_wikipedia_url": "http://en.wikipedia.org/wiki/Peyton_Manning", 
+    "qb_image_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Peyton_Manning_%28cropped%29.jpg/250px-Peyton_Manning_%28cropped%29.jpg"
+  }, 
+  {
+    "division": "NFC North", 
+    "team_wikipedia_url": "http://en.wikipedia.org/wiki/Detroit_Lions", 
+    "qb_name": "Matthew Stafford", 
+    "team": "Detroit Lions", 
+    "qb_wikipedia_url": "http://en.wikipedia.org/wiki/Matthew_Stafford", 
+    "qb_image_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Matt_Stafford_2009_cropped.jpg/150px-Matt_Stafford_2009_cropped.jpg"
+  }, 
+  {
+    "division": "NFC North", 
+    "team_wikipedia_url": "http://en.wikipedia.org/wiki/Green_Bay_Packers", 
+    "qb_name": "Aaron Rodgers", 
+    "team": "Green Bay Packers", 
+    "qb_wikipedia_url": "http://en.wikipedia.org/wiki/Aaron_Rodgers", 
+    "qb_image_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Aaron_Rodgers_2008_%28cropped%29.jpg/250px-Aaron_Rodgers_2008_%28cropped%29.jpg"
+  }, 
+  {
+    "division": "AFC South", 
+    "team_wikipedia_url": "http://en.wikipedia.org/wiki/Houston_Texans", 
+    "qb_name": "Matt Schaub", 
+    "team": "Houston Texans", 
+    "qb_wikipedia_url": "http://en.wikipedia.org/wiki/Matt_Schaub", 
+    "qb_image_url": "http://upload.wikimedia.org/wikipedia/en/f/f4/Ambox_content.png"
+  }, 
+  {
+    "division": "AFC South", 
+    "team_wikipedia_url": "http://en.wikipedia.org/wiki/Houston_Texans", 
+    "qb_name": "Case Keenum", 
+    "team": "Houston Texans", 
+    "qb_wikipedia_url": "http://en.wikipedia.org/wiki/Case_Keenum", 
+    "qb_image_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Case_Keenum.jpg/220px-Case_Keenum.jpg"
+  }, 
+  {
+    "division": "AFC South", 
+    "team_wikipedia_url": "http://en.wikipedia.org/wiki/Indianapolis_Colts", 
+    "qb_name": "Andrew Luck", 
+    "team": "Indianapolis Colts", 
+    "qb_wikipedia_url": "http://en.wikipedia.org/wiki/Andrew_Luck", 
+    "qb_image_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Andrew_Luck_at_2010_Stanford_football_open_house.JPG/200px-Andrew_Luck_at_2010_Stanford_football_open_house.JPG"
+  }, 
+  {
+    "division": "AFC South", 
+    "team_wikipedia_url": "http://en.wikipedia.org/wiki/Jacksonville_Jaguars", 
+    "qb_name": "Chad Henne", 
+    "team": "Jacksonville Jaguars", 
+    "qb_wikipedia_url": "http://en.wikipedia.org/wiki/Chad_Henne", 
+    "qb_image_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Chad_Henne_Jets-Dolphin_game%2C_Nov_2009_-_049.jpg/220px-Chad_Henne_Jets-Dolphin_game%2C_Nov_2009_-_049.jpg"
+  }, 
+  {
+    "division": "AFC South", 
+    "team_wikipedia_url": "http://en.wikipedia.org/wiki/Jacksonville_Jaguars", 
+    "qb_name": "Blaine Gabbert", 
+    "team": "Jacksonville Jaguars", 
+    "qb_wikipedia_url": "http://en.wikipedia.org/wiki/Blaine_Gabbert", 
+    "qb_image_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Blaine_Gabbert.jpg/220px-Blaine_Gabbert.jpg"
+  }, 
+  {
+    "division": "AFC West", 
+    "team_wikipedia_url": "http://en.wikipedia.org/wiki/Kansas_City_Chiefs", 
+    "qb_name": "Alex Smith", 
+    "team": "Kansas City Chiefs", 
+    "qb_wikipedia_url": "http://en.wikipedia.org/wiki/Alex_Smith", 
+    "qb_image_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Alex_Smith_at_Chiefs_OTAs_%28cropped%29.jpg/220px-Alex_Smith_at_Chiefs_OTAs_%28cropped%29.jpg"
+  }, 
+  {
+    "division": "AFC East", 
+    "team_wikipedia_url": "http://en.wikipedia.org/wiki/Miami_Dolphins", 
+    "qb_name": "Ryan Tannehill", 
+    "team": "Miami Dolphins", 
+    "qb_wikipedia_url": "http://en.wikipedia.org/wiki/Ryan_Tannehill", 
+    "qb_image_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Ryan_Tannehill_-_Miami.jpg/275px-Ryan_Tannehill_-_Miami.jpg"
+  }, 
+  {
+    "division": "NFC North", 
+    "team_wikipedia_url": "http://en.wikipedia.org/wiki/Minnesota_Vikings", 
+    "qb_name": "Christian Ponder", 
+    "team": "Minnesota Vikings", 
+    "qb_wikipedia_url": "http://en.wikipedia.org/wiki/Christian_Ponder", 
+    "qb_image_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Christian_Ponder_close-up.jpg/220px-Christian_Ponder_close-up.jpg"
+  }, 
+  {
+    "division": "NFC North", 
+    "team_wikipedia_url": "http://en.wikipedia.org/wiki/Minnesota_Vikings", 
+    "qb_name": "Matt Cassel", 
+    "team": "Minnesota Vikings", 
+    "qb_wikipedia_url": "http://en.wikipedia.org/wiki/Matt_Cassel", 
+    "qb_image_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Matt_Cassel_Chiefs_2010_%28cropped%29.jpg/250px-Matt_Cassel_Chiefs_2010_%28cropped%29.jpg"
+  }, 
+  {
+    "division": "NFC North", 
+    "team_wikipedia_url": "http://en.wikipedia.org/wiki/Minnesota_Vikings", 
+    "qb_name": "Josh Freeman", 
+    "team": "Minnesota Vikings", 
+    "qb_wikipedia_url": "http://en.wikipedia.org/wiki/Josh_Freeman", 
+    "qb_image_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Josh_Freeman_throwing_%28cropped%29.png/220px-Josh_Freeman_throwing_%28cropped%29.png"
+  }, 
+  {
+    "division": "AFC East", 
+    "team_wikipedia_url": "http://en.wikipedia.org/wiki/New_England_Patriots", 
+    "qb_name": "Tom Brady", 
+    "team": "New England Patriots", 
+    "qb_wikipedia_url": "http://en.wikipedia.org/wiki/Tom_Brady", 
+    "qb_image_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Tom_Brady_2011.JPG/240px-Tom_Brady_2011.JPG"
+  }, 
+  {
+    "division": "NFC South", 
+    "team_wikipedia_url": "http://en.wikipedia.org/wiki/New_Orleans_Saints", 
+    "qb_name": "Drew Brees", 
+    "team": "New Orleans Saints", 
+    "qb_wikipedia_url": "http://en.wikipedia.org/wiki/Drew_Brees", 
+    "qb_image_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Drew_Brees_at_Saints_Super_Bowl_parade_2010-02-09.jpg/220px-Drew_Brees_at_Saints_Super_Bowl_parade_2010-02-09.jpg"
+  }, 
+  {
+    "division": "NFC East", 
+    "team_wikipedia_url": "http://en.wikipedia.org/wiki/New_York_Giants", 
+    "qb_name": "Eli Manning", 
+    "team": "New York Giants", 
+    "qb_wikipedia_url": "http://en.wikipedia.org/wiki/Eli_Manning", 
+    "qb_image_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Eli_Manning_Giants_QB.jpg/275px-Eli_Manning_Giants_QB.jpg"
+  }, 
+  {
+    "division": "AFC East", 
+    "team_wikipedia_url": "http://en.wikipedia.org/wiki/New_York_Jets", 
+    "qb_name": "Geno Smith", 
+    "team": "New York Jets", 
+    "qb_wikipedia_url": "http://en.wikipedia.org/wiki/Geno_Smith", 
+    "qb_image_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Geno_Smith_at_Jets_training_camp.JPG/250px-Geno_Smith_at_Jets_training_camp.JPG"
+  }, 
+  {
+    "division": "AFC West", 
+    "team_wikipedia_url": "http://en.wikipedia.org/wiki/Oakland_Raiders", 
+    "qb_name": "Terrelle Pryor", 
+    "team": "Oakland Raiders", 
+    "qb_wikipedia_url": "http://en.wikipedia.org/wiki/Terrelle_Pryor", 
+    "qb_image_url": "http:"
+  }, 
+  {
+    "division": "AFC West", 
+    "team_wikipedia_url": "http://en.wikipedia.org/wiki/Oakland_Raiders", 
+    "qb_name": "Matt Flynn", 
+    "team": "Oakland Raiders", 
+    "qb_wikipedia_url": "http://en.wikipedia.org/wiki/Matt_Flynn", 
+    "qb_image_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Matt_Flynn1.jpg/220px-Matt_Flynn1.jpg"
+  }, 
+  {
+    "division": "NFC East", 
+    "team_wikipedia_url": "http://en.wikipedia.org/wiki/Philadelphia_Eagles", 
+    "qb_name": "Michael Vick", 
+    "team": "Philadelphia Eagles", 
+    "qb_wikipedia_url": "http://en.wikipedia.org/wiki/Michael_Vick", 
+    "qb_image_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Michael-Vick_Jets-vs-Eagles-Sept-3-2009_Post-Game-Interview_%28cropped%29.jpg/160px-Michael-Vick_Jets-vs-Eagles-Sept-3-2009_Post-Game-Interview_%28cropped%29.jpg"
+  }, 
+  {
+    "division": "NFC East", 
+    "team_wikipedia_url": "http://en.wikipedia.org/wiki/Philadelphia_Eagles", 
+    "qb_name": "Nick Foles", 
+    "team": "Philadelphia Eagles", 
+    "qb_wikipedia_url": "http://en.wikipedia.org/wiki/Nick_Foles", 
+    "qb_image_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Nick_Foles_calling_play_in_2012.jpg/250px-Nick_Foles_calling_play_in_2012.jpg"
+  }, 
+  {
+    "division": "AFC North", 
+    "team_wikipedia_url": "http://en.wikipedia.org/wiki/Pittsburgh_Steelers", 
+    "qb_name": "Ben Roethlisberger", 
+    "team": "Pittsburgh Steelers", 
+    "qb_wikipedia_url": "http://en.wikipedia.org/wiki/Ben_Roethlisberger", 
+    "qb_image_url": "http://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/40px-Edit-clear.svg.png"
+  }, 
+  {
+    "division": "AFC West", 
+    "team_wikipedia_url": "http://en.wikipedia.org/wiki/San_Diego_Chargers", 
+    "qb_name": "Philip Rivers", 
+    "team": "San Diego Chargers", 
+    "qb_wikipedia_url": "http://en.wikipedia.org/wiki/Philip_Rivers", 
+    "qb_image_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Philip_Rivers_2008.JPG/220px-Philip_Rivers_2008.JPG"
+  }, 
+  {
+    "division": "NFC West", 
+    "team_wikipedia_url": "http://en.wikipedia.org/wiki/San_Francisco_49ers", 
+    "qb_name": "Colin Kaepernick", 
+    "team": "San Francisco 49ers", 
+    "qb_wikipedia_url": "http://en.wikipedia.org/wiki/Colin_Kaepernick", 
+    "qb_image_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Colin_Kaepernick_in_2013.jpg/220px-Colin_Kaepernick_in_2013.jpg"
+  }, 
+  {
+    "division": "NFC West", 
+    "team_wikipedia_url": "http://en.wikipedia.org/wiki/Seattle_Seahawks", 
+    "qb_name": "Russell Wilson", 
+    "team": "Seattle Seahawks", 
+    "qb_wikipedia_url": "http://en.wikipedia.org/wiki/Russell_Wilson", 
+    "qb_image_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Russell_Wilson_vs_Vikings%2C_November_4%2C_2012.jpg/250px-Russell_Wilson_vs_Vikings%2C_November_4%2C_2012.jpg"
+  }, 
+  {
+    "division": "NFC West", 
+    "team_wikipedia_url": "http://en.wikipedia.org/wiki/St._Louis_Rams", 
+    "qb_name": "Sam Bradford", 
+    "team": "St. Louis Rams", 
+    "qb_wikipedia_url": "http://en.wikipedia.org/wiki/Sam_Bradford", 
+    "qb_image_url": "http://upload.wikimedia.org/wikipedia/en/thumb/0/09/SamBradford.jpg/275px-SamBradford.jpg"
+  }, 
+  {
+    "division": "NFC West", 
+    "team_wikipedia_url": "http://en.wikipedia.org/wiki/St._Louis_Rams", 
+    "qb_name": "Kellen Clemens", 
+    "team": "St. Louis Rams", 
+    "qb_wikipedia_url": "http://en.wikipedia.org/wiki/Kellen_Clemens", 
+    "qb_image_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Kellenclemens8-15-13.jpg/220px-Kellenclemens8-15-13.jpg"
+  }, 
+  {
+    "division": "NFC South", 
+    "team_wikipedia_url": "http://en.wikipedia.org/wiki/Tampa_Bay_Buccaneers", 
+    "qb_name": "Mike Glennon", 
+    "team": "Tampa Bay Buccaneers", 
+    "qb_wikipedia_url": "http://en.wikipedia.org/wiki/Mike_Glennon", 
+    "qb_image_url": "http:"
+  }, 
+  {
+    "division": "NFC South", 
+    "team_wikipedia_url": "http://en.wikipedia.org/wiki/Tampa_Bay_Buccaneers", 
+    "qb_name": "Josh Freeman", 
+    "team": "Tampa Bay Buccaneers", 
+    "qb_wikipedia_url": "http://en.wikipedia.org/wiki/Josh_Freeman", 
+    "qb_image_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Josh_Freeman_throwing_%28cropped%29.png/220px-Josh_Freeman_throwing_%28cropped%29.png"
+  }, 
+  {
+    "division": "AFC South", 
+    "team_wikipedia_url": "http://en.wikipedia.org/wiki/Tennessee_Titans", 
+    "qb_name": "Jake Locker", 
+    "team": "Tennessee Titans", 
+    "qb_wikipedia_url": "http://en.wikipedia.org/wiki/Jake_Locker", 
+    "qb_image_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Jake_Locker.jpg/275px-Jake_Locker.jpg"
+  }, 
+  {
+    "division": "AFC South", 
+    "team_wikipedia_url": "http://en.wikipedia.org/wiki/Tennessee_Titans", 
+    "qb_name": "Ryan Fitzpatrick", 
+    "team": "Tennessee Titans", 
+    "qb_wikipedia_url": "http://en.wikipedia.org/wiki/Ryan_Fitzpatrick", 
+    "qb_image_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Ryan_Fitzpatrick_Bills_vs_Jets.jpg/220px-Ryan_Fitzpatrick_Bills_vs_Jets.jpg"
+  }, 
+  {
+    "division": "NFC East", 
+    "team_wikipedia_url": "http://en.wikipedia.org/wiki/Washington_Redskins", 
+    "qb_name": "Robert Griffin III", 
+    "team": "Washington Redskins", 
+    "qb_wikipedia_url": "http://en.wikipedia.org/wiki/Robert_Griffin_III", 
+    "qb_image_url": "http://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Rg3_redskins.jpg/250px-Rg3_redskins.jpg"
+  }
+]
