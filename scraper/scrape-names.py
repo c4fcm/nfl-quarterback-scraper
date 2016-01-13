@@ -1,11 +1,12 @@
-from BeautifulSoup import BeautifulSoup
+from bs4 import BeautifulSoup
 import requests, sys, logging, json, csv
 
-logging.basicConfig(level=logging.INFO)
-SEASON = "2013"
+logging.basicConfig(level=logging.DEBUG)
+logging.getLogger("requests").setLevel(logging.WARNING)
+logging.getLogger("urllib3").setLevel(logging.WARNING)
 
 team_list_page = requests.get('http://en.wikipedia.org/wiki/List_of_NFL_starting_quarterbacks')
-doc = BeautifulSoup(team_list_page.text)
+doc = BeautifulSoup(team_list_page.text,"html.parser")
 
 starting_quarterbacks = []
 
@@ -13,7 +14,7 @@ def add_qb(qb_link, division, team_name, team_link):
 	logging.info("  "+qb_link.text)
 	# try to grab the qb pic too
 	qb_url = "http://en.wikipedia.org"+qb_link['href']
-	qb_doc = BeautifulSoup(requests.get(qb_url).text)
+	qb_doc = BeautifulSoup(requests.get(qb_url).text, "html.parser")
 	qb_table = qb_doc.find('table')
 	qb_img_url = ''
 	if qb_table.find('img'):
@@ -31,7 +32,7 @@ def add_qb(qb_link, division, team_name, team_link):
 # process each team
 table = doc.findAll('table')[0]
 for team_row in table.findAll('tr')[1:]:
-	logging.debug(team_row)
+	#logging.debug(team_row)
 	team_columns = team_row.findAll('td')
 	division = team_columns[0].text
 	team_name = team_columns[1].findAll('a')[0].text
@@ -40,7 +41,7 @@ for team_row in table.findAll('tr')[1:]:
 	logging.info("Team: "+team_name)
 	# grab the team page to get all starting qbs
 	found_qb = False
-	team_doc = BeautifulSoup(requests.get(team_qb_list_link).text)
+	team_doc = BeautifulSoup(requests.get(team_qb_list_link).text,"html.parser")
 	table_index = 0
 	if team_name in ['St. Louis Rams', 'Cleveland Browns', 'Indianapolis Colts', \
 					 'Miami Dolphins', 'Minnesota Vikings']:
@@ -55,10 +56,11 @@ for team_row in table.findAll('tr')[1:]:
 		if team_name in ['Oakland Raiders']:
 			season_col_index = 1
 			qb_col_index = 2
-		if season_columns[season_col_index].text!='2013':
+		if season_columns[season_col_index].text!='2015':
 			continue
 		# found the right row - now parse it
 		for qb_link in season_columns[qb_col_index].findAll('a'):
+			logging.info("  "+qb_link.string)
 			add_qb(qb_link, division, team_name, team_link)
 			found_qb = True
 		break
