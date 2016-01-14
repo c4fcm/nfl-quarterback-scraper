@@ -1,20 +1,26 @@
-from bs4 import BeautifulSoup
 import requests, sys, logging, json, csv
+from bs4 import BeautifulSoup
+import cache
+
+BS_PARSER = "html.parser"
 
 logging.basicConfig(level=logging.DEBUG)
 logging.getLogger("requests").setLevel(logging.WARNING)
 logging.getLogger("urllib3").setLevel(logging.WARNING)
 
-team_list_page = requests.get('http://en.wikipedia.org/wiki/List_of_NFL_starting_quarterbacks')
-doc = BeautifulSoup(team_list_page.text,"html.parser")
-
-starting_quarterbacks = []
+def fetch_webpage_text(url,use_cache=True):
+	if use_cache and cache.contains(url):
+		return cache.get(url)
+	# cache miss, download it
+	content = requests.get(url).text
+	cache.put(url,content)
+	return content
 
 def add_qb(qb_link, division, team_name, team_link):
 	logging.info("  "+qb_link.text)
 	# try to grab the qb pic too
 	qb_url = "http://en.wikipedia.org"+qb_link['href']
-	qb_doc = BeautifulSoup(requests.get(qb_url).text, "html.parser")
+	qb_doc = BeautifulSoup(fetch_webpage_text(qb_url), BS_PARSER)
 	qb_table = qb_doc.find('table')
 	qb_img_url = ''
 	if qb_table.find('img'):
@@ -29,7 +35,10 @@ def add_qb(qb_link, division, team_name, team_link):
 	}
 	starting_quarterbacks.append( qb_info )
 
-# process each team
+# load the starting QB list and process it team by team
+wikipedia_list_url = 'http://en.wikipedia.org/wiki/List_of_NFL_starting_quarterbacks'
+doc = BeautifulSoup(fetch_webpage_text(wikipedia_list_url),BS_PARSER)
+starting_quarterbacks = []
 table = doc.findAll('table')[0]
 for team_row in table.findAll('tr')[1:]:
 	#logging.debug(team_row)
@@ -41,7 +50,7 @@ for team_row in table.findAll('tr')[1:]:
 	logging.info("Team: "+team_name)
 	# grab the team page to get all starting qbs
 	found_qb = False
-	team_doc = BeautifulSoup(requests.get(team_qb_list_link).text,"html.parser")
+	team_doc = BeautifulSoup(fetch_webpage_text(team_qb_list_link),BS_PARSER)
 	table_index = 0
 	if team_name in ['St. Louis Rams', 'Cleveland Browns', 'Indianapolis Colts', \
 					 'Miami Dolphins', 'Minnesota Vikings']:
@@ -60,7 +69,6 @@ for team_row in table.findAll('tr')[1:]:
 			continue
 		# found the right row - now parse it
 		for qb_link in season_columns[qb_col_index].findAll('a'):
-			logging.info("  "+qb_link.string)
 			add_qb(qb_link, division, team_name, team_link)
 			found_qb = True
 		break
