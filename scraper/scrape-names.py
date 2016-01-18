@@ -1,4 +1,4 @@
-import requests, sys, logging, json, csv
+import requests, sys, logging, json, csv, collections
 from bs4 import BeautifulSoup
 import cache
 
@@ -18,22 +18,52 @@ def fetch_webpage_text(url,use_cache=True):
 
 def add_qb(qb_link, division, team_name, team_link):
 	logging.info("  "+qb_link.text)
-	# try to grab the qb pic too
+	# grab the basic info from the qb page
 	qb_url = "http://en.wikipedia.org"+qb_link['href']
 	qb_doc = BeautifulSoup(fetch_webpage_text(qb_url), BS_PARSER)
 	qb_table = qb_doc.find('table')
-	qb_img_url = ''
+	qb_img_url = ''	# try to grab the qb pic too
 	if qb_table.find('img'):
 		qb_img_url = qb_table.find('img')['src']
-	qb_info = {
-		'division': division,
-		'team': team_name,
-		'team_wikipedia_url': team_link,
-		'qb_name': qb_link.text,
-		'qb_wikipedia_url': qb_url,
-		'qb_image_url': 'http:'+qb_img_url
-	}
-	starting_quarterbacks.append( qb_info )
+	qb_nfl_url = '' # try to grab their nfl page url
+	for link in qb_table.find_all('a'):
+		if link.has_attr('href'):
+			if 'nfl.com' in link['href']:
+				qb_nfl_url = link['href']
+	stats = collections.OrderedDict()
+	stats['division']=division
+	stats['team']=team_name
+	stats['team_wikipedia_url']=team_link
+	stats['qb_name']=qb_link.text
+	stats['qb_wikipedia_url']=qb_url
+	stats['qb_image_url']='http:'+qb_img_url
+	stats['qb_nfl_url']=qb_nfl_url
+	# grab some details from their nfl page
+	if len(qb_nfl_url)>0:
+		qb_nfl_doc = BeautifulSoup(fetch_webpage_text(qb_nfl_url), BS_PARSER)
+		latest_year_stats = qb_nfl_doc.find_all('table')[1].find_all('tr')[3].find_all('td')
+		stats['games'] = latest_year_stats[2].text
+		stats['games_started'] = latest_year_stats[3].text.strip()
+		stats['completions'] = latest_year_stats[4].text
+		stats['attempts'] = latest_year_stats[5].text
+		stats['completion_pct'] = latest_year_stats[6].text
+		stats['passing_yards'] = latest_year_stats[7].text
+		stats['passing_avg_yards'] = latest_year_stats[8].text
+		stats['passing_tds'] = latest_year_stats[9].text
+		stats['interceptions'] = latest_year_stats[10].text
+		stats['sacks'] = latest_year_stats[11].text
+		stats['sack_yards'] = latest_year_stats[12].text
+		stats['rating'] = latest_year_stats[13].text
+		stats['rushing_attempts'] = latest_year_stats[14].text
+		stats['rushing_yards'] = latest_year_stats[15].text
+		stats['rusing_avg_yards'] = latest_year_stats[16].text
+		stats['rusing_tds'] = latest_year_stats[17].text
+		stats['fumbles'] = latest_year_stats[18].text
+		stats['fumbles_lost'] = latest_year_stats[19].text
+	else:
+		logging.warning("    - no nfl url :-(")
+	# stitch it all together and save
+	starting_quarterbacks.append( stats )
 
 # load the starting QB list and process it team by team
 wikipedia_list_url = 'http://en.wikipedia.org/wiki/List_of_NFL_starting_quarterbacks'
@@ -82,10 +112,13 @@ with open("qb_list.json", "w") as json_file:
 
 with open("qb_list.csv", "w") as csv_file:
 	writer = csv.writer(csv_file)
-	cols = ['division','team','team_wikipedia_url','qb_name','qb_wikipedia_url','qb_image_url']
+	cols = starting_quarterbacks[0].keys()
 	writer.writerow(cols)
 	for qb in starting_quarterbacks:
 		info = []
 		for col_name in cols:
-			info.append(qb[col_name])
+			if col_name in qb:
+				info.append(qb[col_name])
+			else:
+				info.append("")
 		writer.writerow(info)
