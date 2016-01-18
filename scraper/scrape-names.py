@@ -21,7 +21,7 @@ def add_qb(qb_link, division, team_name, team_link):
 	# grab the basic info from the qb page
 	qb_url = "http://en.wikipedia.org"+qb_link['href']
 	qb_doc = BeautifulSoup(fetch_webpage_text(qb_url), BS_PARSER)
-	qb_table = qb_doc.find('table')
+	qb_table = qb_doc.find('table',{ "class" : "vcard" })
 	qb_img_url = ''	# try to grab the qb pic too
 	if qb_table.find('img'):
 		qb_img_url = qb_table.find('img')['src']
